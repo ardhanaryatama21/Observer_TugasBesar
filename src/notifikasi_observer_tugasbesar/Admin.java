@@ -8,6 +8,10 @@ package notifikasi_observer_tugasbesar;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *
+ * @author FR13NDS
+ */
 public class Admin implements Subject {
     private List<Pelanggan> pelanggan = new ArrayList<>();
     String pesan;
